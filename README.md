@@ -25,8 +25,8 @@ password: admin
 ## Using the contributed module
 I have created a D8 version of the presentation module. I use it to deliver
 the presentation and for my code examples; it's quite meta and recursive ;)
-Note that it includes some javascript to reveal <li> entries. It looks for
-<ul class="reveal">. For example, node 1 (the Welcome slide) has such a list.
+Note that it includes some javascript to reveal `<li>` entries. It looks for
+`<ul class="reveal">`. For example, node 1 (the Welcome slide) has such a list.
 Click a list item to reveal the next item in the list.
 
 ## Providing feedback
