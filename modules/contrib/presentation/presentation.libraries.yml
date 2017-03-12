@@ -1,0 +1,7 @@
+presentation.slide:
+  version: 1.x
+  js:
+    js/slide.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

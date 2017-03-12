@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Overrides and hook implementations
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function presentation_theme($existing, $type, $theme, $path) {
+  return [
+    'node__slide__full' => [
+      'base hook' => 'node',
+    ],
+  ];
+}

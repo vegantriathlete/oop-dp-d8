@@ -1,0 +1,14 @@
+presentation.display_toc:
+  path: '/presentation/table_of_contents'
+  defaults:
+    _controller: '\Drupal\presentation\Controller\DisplayToc::build'
+    _title: 'Table of Contents'
+  requirements:
+    _permission: 'access content'
+presentation.display_slide_image:
+  path: '/presentation/display_slide_image/{node}/{delta}'
+  defaults:
+    _controller: '\Drupal\presentation\Controller\DisplaySlideImage::displaySlideImage'
+    _title: 'Slide Image Display'
+  requirements:
+    _permission: 'access content'

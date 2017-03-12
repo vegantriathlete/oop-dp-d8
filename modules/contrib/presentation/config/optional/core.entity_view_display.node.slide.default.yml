@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.slide.field_slide_image
+    - field.field.node.slide.field_slide_next
+    - field.field.node.slide.field_slide_previous
+    - field.field.node.slide.field_slide_text
+    - node.type.slide
+  module:
+    - image
+    - text
+    - user
+id: node.slide.default
+targetEntityType: node
+bundle: slide
+mode: default
+content:
+  field_slide_text:
+    weight: 101
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+hidden:
+  field_slide_image: true
+  field_slide_next: true
+  field_slide_previous: true
+  links: true

@@ -1,0 +1,15 @@
+uuid: 408c8700-3dc3-4e2b-8286-3680820c2b69
+langcode: en
+status: true
+dependencies: {  }
+name: presentation_large
+label: 'Presentation Large'
+effects:
+  81abc0a0-886e-451e-a5a1-6ef6e0473f20:
+    uuid: 81abc0a0-886e-451e-a5a1-6ef6e0473f20
+    id: image_scale
+    weight: 1
+    data:
+      width: 960
+      height: null
+      upscale: false

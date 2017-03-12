@@ -1,0 +1,13 @@
+name: Presentation
+description: The custom content type (slide) and all functionality for the Presentation module
+package: Presentation
+type: module
+core: 8.x
+dependencies:
+  - block
+  - file
+  - image
+  - node
+  - path
+  - text
+  - user

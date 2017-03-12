@@ -1,0 +1,15 @@
+uuid: 5f272ee8-c1b8-4eb3-9af2-e6c869f2e63d
+langcode: en
+status: true
+dependencies: {  }
+name: presentation_thumbnail
+label: 'Presentation Thumbnail'
+effects:
+  4a424b93-8b43-4e38-b1bd-c4125df20a3c:
+    uuid: 4a424b93-8b43-4e38-b1bd-c4125df20a3c
+    id: image_scale
+    weight: 1
+    data:
+      width: 100
+      height: null
+      upscale: false

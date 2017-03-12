@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_slide_text
+    - node.type.slide
+  module:
+    - text
+id: node.slide.field_slide_text
+field_name: field_slide_text
+entity_type: node
+bundle: slide
+label: 'Slide Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

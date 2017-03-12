@@ -1,0 +1,4 @@
+services:
+  presentation.presentation_manager_service:
+    class: Drupal\presentation\PresentationManagerService
+    arguments: ['@entity_type.manager']

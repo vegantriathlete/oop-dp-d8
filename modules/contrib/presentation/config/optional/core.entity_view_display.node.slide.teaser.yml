@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.slide
+  module:
+    - user
+id: node.slide.teaser
+targetEntityType: node
+bundle: slide
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_slide_image: true
+  field_slide_next: true
+  field_slide_previous: true
+  field_slide_text: true
