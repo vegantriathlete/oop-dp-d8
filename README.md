@@ -19,8 +19,8 @@ database backup.
 * Update the settings.php file to reflect the proper credentials
 
 Credentials to sign in to the site:
-user: admin
-password: admin
+user: admin 
+password: admin 
 
 ## Using the contributed module
 I have created a D8 version of the presentation module. I use it to deliver
